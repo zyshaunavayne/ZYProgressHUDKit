@@ -1,0 +1,6 @@
+module Pods_ZYProgressHUDKit {
+  umbrella header "Pods-ZYProgressHUDKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
