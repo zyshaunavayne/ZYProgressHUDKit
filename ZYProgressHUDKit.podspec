@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.source = { git: "https://github.com/zyshaunavayne/ZYProgressHUDKit.git", tag: "v#{spec.version}", submodules: true }
   spec.source_files = "ZYProgressHUDKit/*.{h,m}"
   spec.resource_bundles = {'ZYProgressHUD_Resources' => ['ZYProgressHUDKit/ZYProgressHUDKit.bundle']}
-  spec.dependency "lottie-ios"
+  spec.dependency "lottie-ios", '~> 1.3.1'
   spec.frameworks = "Foundation","UIKit"
   spec.subspec "MBProgressHUD" do |ss|
     ss.source_files = "ZYProgressHUDKit/MBProgressHUD/**/*"
