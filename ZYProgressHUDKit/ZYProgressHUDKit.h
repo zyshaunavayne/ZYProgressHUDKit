@@ -7,6 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
+#import "ZYProgressHUD.h"
+
 //! Project version number for ZYProgressHUDKit.
 FOUNDATION_EXPORT double ZYProgressHUDKitVersionNumber;
 
