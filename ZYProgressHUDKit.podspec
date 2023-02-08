@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.source = { git: "https://github.com/zyshaunavayne/ZYProgressHUDKit.git", tag: "v#{spec.version}", submodules: true }
   spec.source_files = "ZYProgressHUDKit/*.{h,m}"
-  spec.resource_bundles = {'ZYProgressHUD_Resources' => ['ZYProgressHUDKit/ZYProgressHUDKit.bundle']}
+  spec.resource_bundles = {'ZYProgressHUDKit_Resources' => ['ZYProgressHUDKit/ZYProgressHUDKit.bundle']}
   spec.dependency "lottie-ios", '~> 3.2.3'
   spec.frameworks = "Foundation","UIKit"
   spec.subspec "MBProgressHUD" do |ss|
