@@ -48,6 +48,10 @@ typedef NS_ENUM(NSInteger, ZYProgressHUDLoadingStyle) {
                  message:(NSString *)message;
 + (void)hideHUD;
 
+/// 延时关闭HUD
+/// @param delay 时间
++ (void)hideHUDToDelay:(NSTimeInterval)delay;
+
 ///------------
 /// 建议用如下两个方法，自己管理（不过就是多写两处代码，但是能保证之前创建的网络请求因为“延时”回调不会影响当前页面的 loading ；因为获取到的 weakSelf = nil）
 ///------------

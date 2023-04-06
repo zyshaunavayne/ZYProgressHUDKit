@@ -95,6 +95,11 @@ static __weak MBProgressHUD *messageHud;
     })
 }
 
++ (void)hideHUDToDelay:(NSTimeInterval)delay
+{
+    [self performSelector:@selector(hideHUD) withObject:nil afterDelay:delay];
+}
+
 + (void)showAutoHUD
 {
     dispatch_main_async_safe(^{

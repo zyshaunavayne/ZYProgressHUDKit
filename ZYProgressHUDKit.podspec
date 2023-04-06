@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
  
   spec.name = "ZYProgressHUDKit"
-  spec.version = "1.0.0"
+  spec.version = "1.0.1"
   spec.summary = "loding and message framework for Apple platforms"
   spec.homepage = "https://github.com/zyshaunavayne/ZYProgressHUDKit"
   spec.license = { type: 'MIT', file: 'LICENSE' }
